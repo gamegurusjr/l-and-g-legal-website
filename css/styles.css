@@ -68,7 +68,7 @@ nav.main > .has-drop:hover .dropdown, nav.main > .has-drop:focus-within .dropdow
     .has-drop:hover .dropdown, .has-drop .dropdown{display:none;}
     .has-drop.open .dropdown{display:block;}
     .menu-toggle{display:block;}
-    .topbar-left{display:none;}
+    .topbar-left{display:flex;}
 }
 
 /* hero slider */
@@ -335,6 +335,16 @@ input[type="tel"] { -webkit-appearance: none; }
 input[type="email"] { -webkit-appearance: none; }
 input, textarea { -webkit-appearance: none; border-radius: 0; }
 select { -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2316222c'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-size: 20px; padding-right: 40px; }
+
+/* Practice area lawyer cards - responsive */
+.lawyer-card{display:flex; align-items:flex-start; gap:20px; padding:24px; background:var(--bg-panel); border:1px solid var(--border);}
+.lawyer-card .avatar{flex-shrink:0;}
+.lawyer-card-content{flex:1; min-width:0;}
+@media(max-width:720px){
+  .lawyer-card{flex-direction:column; align-items:center; text-align:center; gap:16px;}
+  .lawyer-card .avatar{margin-bottom:0;}
+  .lawyer-card-content{width:100%;}
+}
 
 /* Slider touch improvements */
 .slides { touch-action: pan-y; }
