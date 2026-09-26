@@ -1,0 +1,41 @@
+{
+  "name": "L&G Legal",
+  "short_name": "L&G Legal",
+  "description": "Straightforward legal work from people who live here too. Serving Ile des Chenes and surrounding communities.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f2efe6",
+  "theme_color": "#16222c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "legal"],
+  "shortcuts": [
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Book a consultation",
+      "url": "/contact.html",
+      "icons": [{ "src": "images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "At-Your-Door Services",
+      "short_name": "At-Your-Door",
+      "description": "Legal services at your location",
+      "url": "/at-your-door.html",
+      "icons": [{ "src": "images/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
