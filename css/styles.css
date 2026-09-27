@@ -342,8 +342,8 @@ select { -webkit-appearance: none; background-image: url("data:image/svg+xml,%3C
 .lawyer-card-content{flex:1; min-width:0;}
 @media(max-width:720px){
   .lawyer-card{flex-direction:column; align-items:center; text-align:center; gap:16px;}
-  .lawyer-card .avatar{margin-bottom:0;}
-  .lawyer-card-content{width:100%;}
+  .lawyer-card .avatar{margin-bottom:0; width:80px; height:80px;}
+  .lawyer-card-content{width:100%; flex:none; min-width:auto;}
 }
 
 /* Slider touch improvements */
